@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "Hello World": "python",
+        "random": "cpp",
+        "limits": "cpp",
+        "ostream": "cpp"
+    }
+}
