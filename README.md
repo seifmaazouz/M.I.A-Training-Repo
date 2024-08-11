@@ -1,8 +1,8 @@
-# My Engineering Journey
+# M.I.A Training Phase 1
 
 ## Description
 
-Welcome to my **Engineering Journey** repository! This project is a collection of tasks and exercises I've completed during my studies. It covers various aspects of computer engineering, including programming, hardware, embedded systems, AI, PCB design, and tooling. The goal is to document my learning process and share the knowledge I've gained.
+Welcome to my **M.I.A Training** repository! This project is a collection of tasks and exercises I've completed during my phase 1 training. It covers various aspects of computer engineering, including programming, hardware, embedded systems, AI, PCB design, and tooling. The goal is to document my learning process and share the knowledge I've gained.
 
 ## Tasks Overview
 
