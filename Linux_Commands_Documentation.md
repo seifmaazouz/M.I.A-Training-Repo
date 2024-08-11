@@ -23,6 +23,7 @@ This document provides a summary of basic Linux commands and tools practiced on 
   - `cd Documents` - Moves to the Documents directory.
   - `cd ..` - Moves up one directory level.
   - `cd /` - Moves to the root directory.
+  - `cd ~` - Moves to the home directory.
 
 ### `pwd` - Print Working Directory
 
