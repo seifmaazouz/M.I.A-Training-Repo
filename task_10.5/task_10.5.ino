@@ -44,11 +44,18 @@ void loop() {
 }
 
 int16_t readGyro(int highByteRegister, int lowByteRegister) {
-  Wire.beginTransmission(MPU_ADDR);
-  Wire.write(highByteRegister);
-  Wire.endTransmission(false);
-  Wire.requestFrom(MPU_ADDR, 2);
+  Wire.beginTransmission(MPU_ADDR); // Start communication with the MPU6050
+  Wire.write(highByteRegister); // Set the register address to start reading from (high byte register)
+  Wire.endTransmission(false); // End transmission but keep the connection open for reading data
+  Wire.requestFrom(MPU_ADDR, 2); // Request 2 bytes of data from the MPU6050
 
-  int16_t value = (Wire.read() << 8) | Wire.read();
+  // Read the high byte and low byte from the sensor
+  int16_t highByte = Wire.read(); // Read the high byte
+  int16_t lowByte = Wire.read();  // Read the low byte
+
+  // Combine high and low bytes into a single 16-bit value
+  int16_t value = (highByte << 8) | lowByte; // By shifting first high 8-bits then Oring them with the second low 8-bits 
+
+  // Return the combined 16-bit value
   return value;
 }
