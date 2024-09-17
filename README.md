@@ -1,8 +1,8 @@
-# M.I.A Training Phase 1
+# M.I.A Training Phase
 
 ## Description
 
-Welcome to my **M.I.A Training** repository! This project is a collection of tasks and exercises I've completed during my phase 1 training. It covers various aspects of computer engineering, including programming, hardware, embedded systems, AI, PCB design, and tooling. The goal is to document my learning process and share the knowledge I've gained.
+Welcome to my **M.I.A Training** repository! This project is a collection of tasks and exercises I've completed during my M.I.A training phase. It covers various aspects of computer engineering, including programming, hardware, embedded systems, AI, PCB design, and tooling. The goal is to document my learning process and share the knowledge I've gained.
 
 ## Tasks Overview
 
